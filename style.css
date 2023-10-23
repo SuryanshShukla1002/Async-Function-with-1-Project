@@ -1,0 +1,38 @@
+h1 {
+    text-align: center;
+    color: rgb(15, 104, 104);
+
+}
+.button {
+    text-align: center;
+}
+#start {
+    /* padding: 15px; */
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 35px;
+    padding-right: 35px;
+    margin: 5px;
+    margin-right: 80px;
+    cursor: pointer;
+    border-radius: 8px;
+    border-color: aqua;
+    font-size: larger;
+    background-color: pink;
+    color: red;
+}
+
+#Stop {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 35px;
+    padding-right: 35px;
+    margin: 5px;
+    margin-right: 80px;
+    cursor: pointer;
+    border-radius: 8px;
+    border-color: aqua;
+    font-size: larger;
+    background-color: rgba(43, 142, 188, 0.297);
+    color: rgb(244, 27, 27);
+}
