@@ -8,13 +8,21 @@ const randomcolor = function () {
 };
 
 const startchangingcolor = function () { 
-    
+    setInterval(changebgColor , 1000);
+};
+
+
+
+function changebgColor() {
+    document.body.style.backgroundColor = randomcolor()
+}
+
+const stopchangingcolor = function () {
+
 };
 
 document.querySelector("#start").addEventListener('click', startchangingcolor);
 
 document.querySelector("#Stop").addEventListener('click', stopchangingcolor);
 
-const stopchangingcolor = function () {
 
-};
